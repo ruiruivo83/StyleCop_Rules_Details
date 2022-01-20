@@ -69,7 +69,8 @@ Structs
 - A structure type (or struct type) is a value type that can encapsulate data and related functionality. 
 You use the struct keyword to define a structure type:
 
-Classes - A type that is defined as a class is a reference type. At run time, 
+Classes 
+- A type that is defined as a class is a reference type. At run time, 
 when you declare a variable of a reference type, the variable contains the value null until you explicitly 
 create an instance of the class by using the new operator, or assign it an object of a compatible type 
 that may have been created elsewhere, as shown in the following
