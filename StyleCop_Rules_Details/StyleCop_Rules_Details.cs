@@ -4,22 +4,30 @@ According to the StyleCop Rules Documentation the ordering is as follows.
 
 Within a class, struct or interface: (SA1201 and SA1203)
 
-Constant Fields - Const keyword is used to declare constant fields and constant local. 
+Constant Fields 
+- Const keyword is used to declare constant fields and constant local. 
 The value of the constant field is the same throughout the program or in other words, 
 once the constant field is assigned the value of this field is not be changed. In C#, 
 constant fields and locals are not variables, a constant is a number, string, null reference, 
 boolean values.
 
-Fields - A field is a variable of any type that is declared directly in a class or struct. 
+Fields 
+- A field is a variable of any type that is declared directly in a class or struct. 
 Fields are members of their containing type.
 
-Constructors - Whenever a class or struct is created, its constructor is called. 
+Constructors 
+- Whenever a class or struct is created, its constructor is called. 
 A class or struct may have multiple constructors that take different arguments. 
 Constructors enable the programmer to set default values, limit instantiation, 
 and write code that is flexible and easy to read. For more information and examples, 
 see Instance constructors and Using constructors.
 
 Finalizers (Destructors)
+- Finalizers (historically referred to as destructors) are used to perform any necessary 
+final clean-up when a class instance is being collected by the garbage collector. 
+In most cases, you can avoid writing a finalizer by using the System.Runtime.InteropServices. 
+SafeHandle or derived classes to wrap any unmanaged handle.
+
 Delegates
 Events
 Enums
